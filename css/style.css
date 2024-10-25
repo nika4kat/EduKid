@@ -151,8 +151,6 @@
     box-sizing: border-box;
     margin-top: 21px;
   }
-  .slider-offer {
-  }
 
   .card-list .card-item {
     font-family: "Quicksand", sans-serif;
@@ -168,8 +166,7 @@
     width: 466px;
     height: 366px;
   }
-  .card-item {
-  }
+ 
   .slider-img {
     margin-bottom: 38px;
     display: flex;
@@ -202,11 +199,7 @@
     justify-content: center;
     margin-bottom: 283px;
   }
-  .left-about {
-  }
-  .img-about {
-    
-  }
+  
   .info-about {
     font-family: "Quicksand", sans-serif;
     color :#000000;
@@ -216,33 +209,37 @@
     width: 746px;
     height: 679px;
   }
+
   .h3-about {
     font-size: 45px;
     font-weight: 700;
     margin-top: 53px;
     margin-bottom: 40px;
   }
+
   .p-about {
     font-size: 24px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 40px;
   }
+
   .info-img {
     width: 724px;
     height: 166px;
     margin-bottom: 40px;
   }
+
   .p-arrow {
     display: flex;
     flex-direction: row;
     margin-top: 0;
   }
+
  .arrow-text {
   color :#000000;
   font-size: 24px;
   font-weight: 400;
-  
  }
 
 .info-about-arrow{
@@ -288,6 +285,7 @@
     font-weight: 700;
     margin-bottom: 24px;
   }
+
   .p-before-slide {
     font-family: "Quicksand", sans-serif;
     font-size: 24px;
@@ -296,16 +294,14 @@
     margin-bottom: 40px;
   }
   
-
   .slide-container {
     position: relative;
     margin-top: 55px;
     margin-bottom: 73px;
     width: 1672px;
-    height: 610px;
+    height: 696px;
   }
   
-
   .card-wrapper {
   display: flex;
 	flex-direction: row;
@@ -349,7 +345,7 @@
 
   .description {
     font-family: "Fredoka", sans-serif;
-    font-style: 18px;
+    font-size: 18px;
     color:#000000;
     font-weight: 400;
     margin-top: 5px;
@@ -361,3 +357,135 @@
     border-radius: 17px;
     background: #000000;
   }
+
+  .section-questions{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  }
+
+  .container {
+    max-width: 776px;
+    margin-right: 62px;
+    margin-bottom: 43px;
+  }
+
+  .h3-questions{
+    font-family: "Quicksand", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 80px;
+  }
+
+  .accordion {
+    margin-bottom: 25px;
+    cursor: pointer;
+    border-radius: 18px;
+    border: 1px solid #DFDFDF;
+  }
+
+  .accordion.active .accordion-heading{
+    background: #FEA439;
+    color: #FFFFFF;
+  }
+
+  .accordion.active .accordion-content{
+    display: block;
+  }
+
+  .accordion-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 112px;
+    width: 774px;
+    border-radius: 18px;
+    padding: 31px 31px;
+  }
+  
+  .h4-accordion{
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .accordion-content{
+    padding: 27px 47px 27px 32px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 774px;
+    display: none;
+  }
+
+  .content-opinion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 1020px;
+    margin-top: 146px;
+    margin-bottom: 350px;
+  }
+
+  .opinion-image{
+    width: 953px;
+    margin-right: 7px; 
+  }
+ 
+.testimonial-slide {
+  background-image: url("/img/background-opinion.jpg"), url("paper.gif");
+  color: #FFFFFF;
+  width: 953px;
+}
+
+.testimonial-content{
+  margin-left: 110px;
+  width: 713px;
+}
+
+.testimonial-content h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 150px 0 111px 0;
+}
+
+.testimonial-content p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 165%;
+}
+
+.author {
+  font-weight: 600; 
+  margin-top: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 126px;
+  letter-spacing: 0.7px;
+}
+
+.nav-dots {
+  margin-top: 97px;
+  margin-left: 110px;
+}
+
+.dot {
+  height: 13px;
+  width: 27px;
+  margin-right: 8px;
+  background-color: #EEEEEE;
+  border-radius: 17px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #000000;
+}
