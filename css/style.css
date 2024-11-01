@@ -489,3 +489,82 @@
 .active {
   background-color: #000000;
 }
+
+
+.news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 879px;
+  width: 1700px;
+  margin: auto;
+  margin-bottom: 277px;
+}
+
+.h2-news {
+  font-family: "Quicksand", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+
+.p-news {
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 57px;
+}
+
+.content-news {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.card-content-news {
+  border: solid #666666 1px;
+  border-radius: 32px;
+  width: 530px;
+  height: 683px;
+}
+
+.date-category {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  align-items: center;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  margin-left: 52px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.p-date-category{
+  margin-left: 8px;
+  margin-right: 24px;
+}
+
+.h3-news {
+  height: 215px;
+  width: 452px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 52px;
+}
+
+.maps{
+  width: 1700px;
+  height: 654px;
+  margin: auto;
+}
+
+.footer{
+height: 300px;
+}
